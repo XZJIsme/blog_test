@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" onmousemove="normalcontent(article02)">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog Demo</title>
+    <link rel="icon" href="images/XZJISME.jpg" type="image/x-icon" />
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        th {
+            font-family: "Microsoft YaHei";
+            font-size: 13px;
+            color: rgb(87, 87, 87);
+
+            /* transition: all 1s; */
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a.words {
+            color: rgb(87, 87, 87);
+            text-decoration: none;
+            transition: all 0.6s;
+        }
+
+        th :hover {
+            color: rgb(165, 209, 209);
+        }
+
+        div {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        div.left {
+            float: left;
+            width: 40%;
+            height: 100%;
+            text-align: center;
+
+            border-left: none;
+            border-bottom: none;
+            border-top: none;
+            border-right: 1px solid rgb(165, 209, 209);
+        }
+
+        div.right {
+            width: 59.8%;
+            height: 100%;
+            float: left;
+        }
+
+        div.left_top {
+            height: 90%;
+        }
+
+        div.left_bottom {
+            /* position: absolute; */
+            height: 10px;
+            bottom: 0;
+            font-size: 12px;
+            color: rgb(155, 155, 155);
+            text-align: center;
+        }
+
+        div.right1 {
+            height: 70px;
+            border-bottom: 1px solid rgb(165, 209, 209);
+            display: grid;
+            grid-template-columns: 79.9% auto 15.9%;
+        }
+
+        div.right1_left {
+            width: 90%;
+            float: left;
+            columns: 1;
+        }
+
+        div.rigth1_right {
+            text-align: right;
+            width: auto;
+            float: right;
+            columns: 3;
+        }
+
+        div.right2 {
+            background-image: url(images/bg.jpg);
+        }
+
+        div.right2_content {
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 81%;
+            /* background-image: url(images/article_bg.png); */
+            /* background-color: #eaeee0; */
+            /* background-color: #a5d1d1; */
+            background-color: white;
+            /* background-image: url(images/grey_bg.png); */
+            overflow-y: auto;
+        }
+
+        div.articles {
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 82.5%;
+
+        }
+
+        /* li{
+            font-family: "Microsoft YaHei";
+            color: white;
+            font-size: 14px;
+        } */
+
+        /* p. {
+            font-family: "Microsoft YaHei";
+            font-weight: 700;
+            color: white;
+            font-size: 19px; 
+        } */
+
+        /* p:hover {
+            font-size: 22px;
+        } */
+
+        p.titles {
+            font-family: "Microsoft YaHei";
+            font-weight: 700;
+            color: rgb(87, 87, 87);
+            /* text-align: end; */
+            font-size: 23px;
+            transition: 0.1s;
+        }
+
+        /* p:hover {
+            font-size: 23px;
+        } */
+        span.previews {
+            font-family: "Microsoft YaHei";
+            font-weight: 650;
+            color: rgb(87, 87, 87);
+            /* text-align: end; */
+            font-size: 75%;
+            transition: 0s;
+        }
+
+        p.article {
+            font-family: "Microsoft YaHei";
+            font-weight: 500;
+            /* color:whitesmoke; */
+            color: rgb(87, 87, 87);
+            /* color: white; */
+            font-size: 16.5px;
+            transition: 0.5s;
+            line-height: 30px;
+            /* text-indent: 2em; */
+        }
+    </style>
+
+    <script>
+        function bigcontent(x) {
+            x.style.fontSize = "23px";
+        }
+        function normalcontent(x) {
+            x.style.fontSize = "21px";
+        }
+    </script>
+</head>
+
+<body bgcolor="#fffffa">
+    <div class="class_father">
+        <div class="left">
+            <div class="left_top">
+                <br><br><br><br><br><br><br><br><br>
+                <a href="../index.html"><img src="images/logo.png" width="180px" height="120px" /></a>
+                <br><br><br>
+                <img src="images/风景.png" width=85% " />
+            </div>
+            <div class=" left_bottom">
+                <p style="text-align: center;"><br><br>Designed&nbsp;By&nbsp;XZJ&nbsp;~</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right1">
+                <div class="right1_left">
+                    <table>
+
+                        <br>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>&nbsp;<a class="words" href="../index.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Articles.html">Articles&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Download.html">Download&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Arts.html">Arts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="About.html">About&nbsp;me&nbsp;</a></th>
+
+                    </table>
+
+
+                </div>
+                <div class="right1_right">
+                    <table>
+
+                        <!-- <br>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>&nbsp;<a class="words" href="index.html">Home&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Articles&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Download&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Links&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">About&nbsp;me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th> -->
+                        <br>
+                        <th>
+                            <a href="https://www.douban.com/people/84263681/">
+                                <img src="images/douban.png" style="align-self: center" width=23px />
+                            </a>
+
+                        </th>
+                        <th>
+
+                            <a href="https://weibo.com/u/5864547066">
+                                <img src="images/weibo.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+
+                            <a href="https://www.facebook.com/profile.php?id=10001033873775">
+                                <img src="images/facebook.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://github.com/XZJIsme">
+                                <img src="images/github.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://music.163.com/#/user/home?id=136689632">
+                                <img src="images/netease.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="right2">
+                <div class="right2_content">
+                    <div class="articles">
+
+                        <a href="1_article.html" onpageshow="normalcontent(article02)"
+                            onmousemove="bigcontent(article02)" onmouseout="normalcontent(article02)">
+                            <p id="article02" class="titles">成功解决vscode使用code runner插件无法编译运行文件名带空格的文件
+                                <span id=" a1" class="previews"><br>时间:2019年03月24日23:57:45&nbsp;作者:徐正佳</span>
+
+                            </p>
+
+                        </a><hr>
+                        <p class="article">2019年4月9日11:34:05更新：
+                            <br><img alt="在这里插入图片描述" src="https://img-blog.csdnimg.cn/2019040911343169.png"
+                                width="100%" /><br>
+                            使用微软的编译器时发现完美解决，详见我的另外一篇文章：https://blog.csdn.net/qq_41246972/article/details/89140154</p>
+
+                        <p class="article">另外尝试继续使用mingw（现在觉得mingw没有微软的好）：试了半天，未果，还是用ms编译器吧
+                            2019年4月9日23:03:35更新：现在试一试，找着了：
+                            <br><img alt="在这里插入图片描述" src="https://img-blog.csdnimg.cn/20190409230412287.png" /><br>
+                            这样就可以了
+
+                            <strong>总之，学会妙用终端的命令，才是解决一系列相关问题的途径。。。</strong></p>
+
+                        <p class="article">
+                            //分隔符以下内容为之前写的，现在有了更好的解决方法
+                            ————————分隔符————————</p>
+
+                        <p class="article">
+                            vscode一直以来用之写c/c++我甚是喜欢，本人才疏学浅，未能寻到更好的编辑器。codeblocks虽然也很轻，vscode的代码提示也不如codeblocks好用，但是codeblocks的界面不是很喜欢，devc++更不用说，vs又太大，另外发现有意思的是，vs图标里的闭环在vscode的图标里是张开的，也许意味着vscode是开源的吧！vscode开源也令我深受喜爱，待日后有时间自己学习写一个可满足我需求的vscode编译运行插件。另外本人还用eclipse写过c++，代码提示也是感觉就这样，因为先前eclipse写java那代码补全简直爽飞！clion也用过，代码提示也很快，也可以在console运行，但是每次运行，都会清空上次运行的东西（也许是我不会设置），而且不够轻量，还不如用vs，代码提示还好一些，只好弃用。
+                            <br><img alt="在这里插入图片描述" src="https://img-blog.csdnimg.cn/20190324231649569.png" /><br>
+                            综上，目前在用过的编辑器中，以我所掌握的对它们的使用方法，vscode是最好的啦！尤其是配合win10的powershell和code
+                            runner插件在terminal里运行，花花绿绿的看着很有满足感，然后，看着也很方便，复制粘贴历史运行情况也超方便的！如图：
+                            <br><img alt="在这里插入图片描述"
+                                src="https://img-blog.csdnimg.cn/20190324232516306.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjQ2OTcy,size_16,color_FFFFFF,t_70" />
+                            <br>难耐，一直有一个心结，从前很是喜爱devc++，怎么命名都可以编译运行，然而这个插件不可以，难道是真的不可以名字有空格吗？有的插件却可以。虽说也不影响学习啦！但是能解决当然更好啦！先直接上解决方案，在setting.json里面自定义（也许你应该先了解一下setting.json怎么用？）：
+                            <br><img alt="在这里插入图片描述" src="https://img-blog.csdnimg.cn/20190324233118787.png" /><br>
+                            下面分析：
+                            假设有一source为&quot;hello world.cpp&quot;
+                            我发现一开始默认情况直接g++ hello world.cpp，导致运行情况为g++ hello，例如以下情况：
+                            <br><img alt="在这里插入图片描述" src="https://img-blog.csdnimg.cn/20190324233355589.png" /><br>
+                            什么！？你找不到Still？我分明要的是Still TBD.cpp，好吧！于是自定义g++
+                            \&quot;\$fileName\&quot;，加上引号便可以编译，然鹅，不可运行！伤脑筋！原因在输出可执行文件的时候，又有空格，也不知道开发插件的人怎么想的，\$dir竟然自带引号，然后执行程序的时候还要有.\，就不好加引号，于是干脆输出执行文件时命名为自己取得编译成功好了，于是就如上。
+                            综上，这个插件可扩展性还是挺强的，可以自己调整，毕竟这个插件本质上也就是往终端输入一个命令而已。（这么好的插件简直应该是vscode标配）</p>
+
+                        <p class="article">其实如果不设置以上，大可有个叫<br><img alt="在这里插入图片描述"
+                                src="https://img-blog.csdnimg.cn/20190324234827272.png" /><br>的方便插件可以用，只不过总觉得哪里怪怪的，而且0.3.0以后，便每次运行都clear
+                            terminal，于是装了0.2.7，并在github上提了一下，最近更新了0.5.0似乎，解决了（也许是看到了我建议，哈哈），不过最新版有点缓慢。不过这个插件还是蛮推介的。<br><br>
+                        </p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
