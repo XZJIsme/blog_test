@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" onmousemove="normalcontent(标题)">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog Demo</title>
+    <link rel="icon" href="images/XZJISME.jpg" type="image/x-icon" />
+
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        th {
+            font-family: "Microsoft YaHei";
+            font-size: 13px;
+            color: rgb(87, 87, 87);
+
+            /* transition: all 1s; */
+        }
+
+        a.words {
+            color: rgb(87, 87, 87);
+            text-decoration: none;
+            transition: all 0.6s;
+        }
+
+        th :hover {
+            color: rgb(165, 209, 209);
+        }
+
+        div {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        div.left {
+            float: left;
+            width: 40%;
+            height: 100%;
+            text-align: center;
+
+            border-left: none;
+            border-bottom: none;
+            border-top: none;
+            border-right: 1px solid rgb(165, 209, 209);
+        }
+
+        div.right {
+            width: 59.8%;
+            height: 100%;
+            float: left;
+        }
+
+        div.left_top {
+            height: 90%;
+        }
+
+        div.left_bottom {
+            /* position: absolute; */
+            height: 10px;
+            bottom: 0;
+            font-size: 12px;
+            color: rgb(155, 155, 155);
+            text-align: center;
+        }
+
+        div.right1 {
+            height: 70px;
+            border-bottom: 1px solid rgb(165, 209, 209);
+            display: grid;
+            grid-template-columns: 79.9% auto 15.9%;
+        }
+
+        div.right1_left {
+            width: 90%;
+            float: left;
+            columns: 1;
+        }
+
+        div.rigth1_right {
+            text-align: right;
+            width: auto;
+            float: right;
+            columns: 3;
+        }
+
+        div.right2 {
+            background-image: url(images/bg.jpg);
+        }
+
+        div.right2_content {
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 81%;
+            background-color: white;
+        }
+
+        div.articles {
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 82.5%;
+
+        }
+
+        p.article {
+            font-family: "Microsoft YaHei";
+            font-weight: 550;
+            /* color:whitesmoke; */
+            color: rgb(87, 87, 87);
+            /* color: white; */
+            font-size: 16.5px;
+            transition: 0.5s;
+            line-height: 30px;
+            /* text-indent: 2em; */
+        }
+
+        a.down{
+            /* text-decoration: none; */
+            color: rgb(24, 80, 129);
+        }
+    </style>
+</head>
+
+<body bgcolor="#fffffa">
+    <div class="class_father">
+        <div class="left">
+            <div class="left_top">
+                <br><br><br><br><br><br><br><br><br>
+                <a href="../index.html"><img src="images/logo.png" width="180px" height="120px" /></a>
+                <br><br><br>
+                <img src="images/风景.png" width=85% " />
+            </div>
+            <div class=" left_bottom">
+                <p style="text-align: center;"><br><br>Designed&nbsp;By&nbsp;XZJ&nbsp;~</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right1">
+                <div class="right1_left">
+                    <table>
+
+                        <br>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>&nbsp;<a class="words" href="../index.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Articles.html">Articles&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Download.html">Download&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Arts.html">Arts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="About.html">About&nbsp;me&nbsp;</a></th>
+
+                    </table>
+
+
+                </div>
+                <div class="right1_right">
+                    <table>
+
+                        <!-- <br>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>&nbsp;<a class="words" href="index.html">Home&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Articles&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Download&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Links&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">About&nbsp;me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th> -->
+                        <br>
+                        <th>
+                            <a href="https://www.douban.com/people/84263681/">
+                                <img src="images/douban.png" style="align-self: center" width=23px />
+                            </a>
+
+                        </th>
+                        <th>
+
+                            <a href="https://weibo.com/u/5864547066">
+                                <img src="images/weibo.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+
+                            <a href="https://www.facebook.com/profile.php?id=10001033873775">
+                                <img src="images/facebook.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://github.com/XZJIsme">
+                                <img src="images/github.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://music.163.com/#/user/home?id=136689632">
+                                <img src="images/netease.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="right2">
+                <div class="right2_content">
+                    <div class="articles">
+                        <p class="article">Ulay Filer 批量打开文件器</p>
+                        <hr> 
+                        <img src="images/screenshot.png" />
+                        <p class="article"><a class="down" href="sources/Ulay Filer 批量打开文件器.exe">Download</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

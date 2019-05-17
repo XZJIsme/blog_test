@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" onmousemove="normalcontent(article02)">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog Demo</title>
+    <link rel="icon" href="images/XZJISME.jpg" type="image/x-icon" />
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        th {
+            font-family: "Microsoft YaHei";
+            font-size: 13px;
+            color: rgb(131, 131, 131);
+
+            /* transition: all 1s; */
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a.words {
+            color: rgb(131, 131, 131);
+            text-decoration: none;
+            transition: all 0.6s;
+        }
+
+        th :hover {
+            color: rgb(165, 209, 209);
+        }
+
+        div {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        div.left {
+            float: left;
+            width: 40%;
+            height: 100%;
+            text-align: center;
+
+            border-left: none;
+            border-bottom: none;
+            border-top: none;
+            border-right: 1px solid rgb(165, 209, 209);
+        }
+
+        div.right {
+            width: 59.8%;
+            height: 100%;
+            float: left;
+        }
+
+        div.left_top {
+            height: 90%;
+        }
+
+        div.left_bottom {
+            /* position: absolute; */
+            height: 10px;
+            bottom: 0;
+            font-size: 12px;
+            color: rgb(155, 155, 155);
+            text-align: center;
+        }
+
+        div.right1 {
+            height: 70px;
+            border-bottom: 1px solid rgb(165, 209, 209);
+            display: grid;
+            grid-template-columns: 79.9% auto 15.9%;
+        }
+
+        div.right1_left {
+            width: 90%;
+            float: left;
+            columns: 1;
+        }
+
+        div.rigth1_right {
+            text-align: right;
+            width: auto;
+            float: right;
+            columns: 3;
+        }
+
+        div.right2 {
+            background-image: url(images/bg.jpg);
+        }
+
+        div.right2_content {
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 81%;
+            /* background-image: url(images/article_bg.png); */
+            /* background-color: #eaeee0; */
+            /* background-color: #a5d1d1; */
+            background-color: white;
+            /* background-image: url(images/grey_bg.png); */
+            overflow-y: auto;
+        }
+
+        div.articles {
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 82.5%;
+
+        }
+
+        /* li{
+            font-family: "Microsoft YaHei";
+            color: white;
+            font-size: 14px;
+        } */
+
+        /* p. {
+            font-family: "Microsoft YaHei";
+            font-weight: 700;
+            color: white;
+            font-size: 19px; 
+        } */
+
+        /* p:hover {
+            font-size: 22px;
+        } */
+
+        p.titles {
+            font-family: "Microsoft YaHei";
+            font-weight: 700;
+            color: rgb(87, 87, 87);
+            /* text-align: end; */
+            font-size: 23px;
+            transition: 0.1s;
+        }
+
+        /* p:hover {
+            font-size: 23px;
+        } */
+        span.previews {
+            font-family: "Microsoft YaHei";
+            font-weight: 650;
+            color: rgb(87, 87, 87);
+            /* text-align: end; */
+            font-size: 75%;
+            transition: 0s;
+        }
+
+        p.article {
+            font-family: "Microsoft YaHei";
+            font-weight: 500;
+            /* color:whitesmoke; */
+            color: rgb(87, 87, 87);
+            /* color: white; */
+            font-size: 16.5px;
+            transition: 0.5s;
+            line-height: 30px;
+            /* text-indent: 2em; */
+        }
+    </style>
+
+    <script>
+        function bigcontent(x) {
+            x.style.fontSize = "23px";
+        }
+        function normalcontent(x) {
+            x.style.fontSize = "21px";
+        }
+    </script>
+</head>
+
+<body bgcolor="#fffffa">
+    <div class="class_father">
+        <div class="left">
+            <div class="left_top">
+                <br><br><br><br><br><br><br><br><br>
+                <a href="../index.html"><img src="images/logo.png" width="180px" height="120px" /></a>
+                <br><br><br>
+                <img src="images/风景.png" width=85% " />
+            </div>
+            <div class=" left_bottom">
+                <p style="text-align: center;"><br><br>Designed&nbsp;By&nbsp;XZJ&nbsp;~</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right1">
+                <div class="right1_left">
+                    <table>
+
+                        <br>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>&nbsp;<a class="words" href="../index.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Articles.html">Articles&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Download.html">Download&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Arts.html">Arts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="About.html">About&nbsp;me&nbsp;</a></th>
+
+                    </table>
+
+
+                </div>
+                <div class="right1_right">
+                    <table>
+
+                        <!-- <br>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>&nbsp;<a class="words" href="index.html">Home&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Articles&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Download&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Links&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">About&nbsp;me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th> -->
+                        <br>
+                        <th>
+                            <a href="https://www.douban.com/people/84263681/">
+                                <img src="images/douban.png" style="align-self: center" width=23px />
+                            </a>
+
+                        </th>
+                        <th>
+
+                            <a href="https://weibo.com/u/5864547066">
+                                <img src="images/weibo.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+
+                            <a href="https://www.facebook.com/profile.php?id=100010331313775">
+                                <img src="images/facebook.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://github.com/XZJIsme">
+                                <img src="images/github.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://music.163.com/#/user/home?id=136689632">
+                                <img src="images/netease.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="right2">
+                <div class="right2_content">
+                    <div class="articles">
+
+                        <a href="2_article.html" onpageshow="normalcontent(article02)"
+                            onmousemove="bigcontent(article02)" onmouseout="normalcontent(article02)">
+                            <p id="article02" class="titles">那这个影评我来坐沙发吧！这个慵懒的电影让我想到了《菊次郎的夏天》。
+                                <span id=" a1" class="previews"><br>时间:2017年02月02日00:14:08&nbsp;作者:徐正佳</span>
+
+                            </p>
+
+                        </a>
+                        <hr>
+
+                        <p class="article">2017年2月1日23:06:20</p>
+                        <p class="article">去欣赏一个夏天的简素美吧！为了慵懒的蝉鸣也好呀！</p>
+                        <p class="article">
+                            这部电影期待已久，贴吧上村花纯字幕组刚说传到B站上面了就赶紧跑过去投币收藏起来，因为真的喜欢村花酱，可以说这部电影完全可以当做村花的写真看。我想可以算是大陆网上有了这部电影后第一批看完的吧！</p>
+                        <p class="article">导演之前导软色情电影的，我也没有看过。这部电影镜头基本上一直都有点晃来晃去的感觉，弹幕上有人说看吐了，但是画面是很美很美的，放眼望去很清新的风格，是夏天的感觉，所以说这部电影是很适合夏天的电影。简素，是典型的日本美学，很简单的画面，很简单的漂亮。题中说我想到了《菊次郎的夏天》，为什么呢？电影直观看的话，比较令人印象深刻先是它慵懒简单的夏天的味道与整部电影一直都在的蝉鸣，所以这是一点，电影在摄影方面体现了日本人的美学。</p>
+                        <p class="article">电影的剧情方面，正如大家所说的，比较闷，就像夏日沉闷的午后，但是我觉得它并不单薄。大家都知道的《菊次郎的夏天》，所谓的豆瓣高分电影，它的剧情也是比较闷，但是却散发出一种淡淡的西瓜味，细巧的西瓜种子里面透露出一种淡淡的孤独。我并不是要拿《菊次郎的夏天》和《夏美的萤火虫》做比较，只是借个比方而已。电影里面最让我想到《菊次郎的夏天》的地方，是地藏爷爷躺在病床见到夏美之后说：“现在我想见到的只是大家和孩子而已。”有点孤独的味道。然而这里，他撒了谎，其实他很想见到家人，事实上，他在见到前妻和儿子后，很开心，正如其父母所说，人生有三惠，一是降临于世，二是被父母疼爱，三是为人父母后，疼爱自己的孩子，故地藏爷爷的父母给他起名为三惠。夏美因其父亲与自己的摄影师梦前来寻找萤火虫，这个情节是点题了，然而电影在萤火虫上并没有过浓的描绘，那么萤火虫究竟是什么呢？是夏美的摄影师梦、是夏美对父亲的怀念、是夏美父亲对她的爱，这正是电影想要表达的，亲情，它表达得很简单，甚至说，并非亲情，是生活，简素的美，亲情正是一种简素的美，它在煮水壶里面、它在味增里面、它在小小的萤火虫里面……导演想表达的是亲情的羁绊，地藏的“三惠”，三惠与他的母亲、夏美与父亲的萤火虫以及结尾夏美与她的孩子……《菊次郎的夏天》《夏美的萤火虫》，前者里面有孤独，后者里面是简素的“三惠”。我并没有过分解读，毕竟导演表达得很直观。</p>
+                        <p class="article">整部电影其实最令人喜爱的并不是它的主题，而是它的风格，有蝉鸣的夏天的味道。我想以后还会有好多沉闷的夏日午后，我想我还会温习这部电影吧！因为村花、因为慵懒、因为夏天。最令我憧憬的是，还有一个人，她很喜欢夏天，所以我想与她一起看，躺在沙发上，她会因为沉闷的剧情而瞌睡吧？那又怎样呢？我也会睡着的，醒来的时候，我们会一起听到《星の中の君》的旋律伴随着悠悠的蝉鸣醒来……</p>
+                        <p class="article">（所以去欣赏这部电影吧！或许最后比起剧情，你会发现还有美丽的摄影，还有背景的蝉鸣，还有回味的感动，还有更多的东西能让你喜欢一部电影，以后某个慵懒的夏日午后，或许我们还能抱起这部电影，慢慢地睡着。去欣赏夏天吧）</p>
+                        <p class="article">2017年2月2日00:04:58</p>
+
+                        <img src="https://img1.doubanio.com/view/thing_review/l/public/p483487.webp" width="60%">
+                        <img src="https://img3.doubanio.com/view/thing_review/l/public/p483490.webp" width="60%">
+                        <img src="https://img3.doubanio.com/view/thing_review/l/public/p483492.webp" width="60%">
+                        <img src="https://img3.doubanio.com/view/thing_review/l/public/p483494.webp" width="60%">
+                        <img src="https://img3.doubanio.com/view/thing_review/l/public/p483496.webp" width="60%"> 
+                        <img src="https://img1.doubanio.com/view/thing_review/l/public/p483498.webp" width="60%">
+
+                        <br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

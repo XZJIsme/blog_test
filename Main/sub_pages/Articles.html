@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en"  ">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog Demo</title>
+    <link rel="icon" href="images/XZJISME.jpg" type="image/x-icon" />
+
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        th {
+            font-family: "Microsoft YaHei";
+            font-size: 13px;
+            color: rgb(87, 87, 87);
+
+            /* transition: all 1s; */
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a.words {
+            color: rgb(87, 87, 87);
+            text-decoration: none;
+            transition: all 0.6s;
+        }
+
+        th :hover {
+            color: rgb(165, 209, 209);
+        }
+
+        div {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        div.left {
+            float: left;
+            width: 40%;
+            height: 100%;
+            text-align: center;
+
+            border-left: none;
+            border-bottom: none;
+            border-top: none;
+            border-right: 1px solid rgb(165, 209, 209);
+        }
+
+        div.right {
+            width: 59.8%;
+            height: 100%;
+            float: left;
+        }
+
+        div.left_top {
+            height: 90%;
+        }
+
+        div.left_bottom {
+            /* position: absolute; */
+            height: 10px;
+            bottom: 0;
+            font-size: 12px;
+            color: rgb(155, 155, 155);
+            text-align: center;
+        }
+
+        div.right1 {
+            height: 70px;
+            border-bottom: 1px solid rgb(165, 209, 209);
+            display: grid;
+            grid-template-columns: 79.9% auto 15.9%;
+        }
+
+        div.right1_left {
+            width: 90%;
+            float: left;
+            columns: 1;
+        }
+
+        div.rigth1_right {
+            text-align: right;
+            width: auto;
+            float: right;
+            columns: 3;
+        }
+
+        div.right2 {
+            background-image: url(images/bg.jpg);
+        }
+
+        div.right2_content {
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 81%;
+            background-color: white;
+            overflow-y: auto;
+            /* background-image: url(images/grey_bg.png); */
+        }
+
+        div.articles {
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 82.5%;
+
+        }
+
+        /* li{
+            font-family: "Microsoft YaHei";
+            color: white;
+            font-size: 14px;
+        } */
+
+        p.titles {
+            font-family: "Microsoft YaHei";
+            font-weight: 700;
+            color: rgb(87, 87, 87);
+            /* text-align: end; */
+            font-size: 21px;
+            transition: 0.1s;
+        }
+
+        /* p:hover {
+            font-size: 23px;
+        } */
+
+        span.date {
+            font-family: "Microsoft YaHei";
+            font-weight: 650;
+            color: rgb(87, 87, 87);
+            /* text-align: end; */
+            font-size: 75%;
+            transition: 0s;
+        }
+
+        span.preview {
+            font-family: "Microsoft YaHei";
+            font-weight: 500;
+            /* color:whitesmoke; */
+            color: rgb(156, 156, 156);
+            /* color: white; */
+            font-size: 70%;
+            transition: 0s;
+            line-height: 25px;
+        }
+    </style>
+
+    <script>
+        function bigcontent(x) {
+            x.style.fontSize = "23px";
+        }
+        function normalcontent(x) {
+            x.style.fontSize = "21px";
+        }
+    </script>
+</head>
+
+<body bgcolor="#fffffa">
+    <div class="class_father">
+        <div class="left">
+            <div class="left_top">
+                <br><br><br><br><br><br><br><br><br>
+                <a href="../index.html"><img src="images/logo.png" width="180px" height="120px" /></a>
+                <br><br><br>
+                <img src="images/风景.png" width=85% " />
+            </div>
+            <div class=" left_bottom">
+                <p style="text-align: center;"><br><br>Designed&nbsp;By&nbsp;XZJ&nbsp;~</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right1">
+                <div class="right1_left">
+                    <table>
+
+                        <br>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>&nbsp;<a class="words" href="../index.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Articles.html">Articles&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Download.html">Download&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="Arts.html">Arts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="About.html">About&nbsp;me&nbsp;</a></th>
+
+                    </table>
+
+
+                </div>
+                <div class="right1_right">
+                    <table>
+
+                        <!-- <br>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>&nbsp;<a class="words" href="index.html">Home&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Articles&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Download&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">Links&nbsp;&nbsp;&nbsp;</a></th>
+                        <th>&nbsp;<a class="words" href="index.html">About&nbsp;me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></th> -->
+                        <br>
+                        <th>
+                            <a href="https://www.douban.com/people/84263681/">
+                                <img src="images/douban.png" style="align-self: center" width=23px />
+                            </a>
+
+                        </th>
+                        <th>
+
+                            <a href="https://weibo.com/u/5864547066">
+                                <img src="images/weibo.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+
+                            <a href="https://www.facebook.com/profile.php?id=10001033873775">
+                                <img src="images/facebook.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://github.com/XZJIsme">
+                                <img src="images/github.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://music.163.com/#/user/home?id=136689632">
+                                <img src="images/netease.png" style="align-self: center" width=23px />
+                            </a>
+                        </th>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+            <div class="right2">
+                <div class="right2_content">
+                    <div class="articles">
+                        <a href="0_article_实习作业说明.html" onmousemove="bigcontent(article01)"
+                            onmouseout="normalcontent(article01)">
+                            <p id="article01" class="titles">实习作业说明
+                                <span id=" a1" class="date"><br>时间:2019年5月16日22:10:38&nbsp;作者:徐正佳</span>
+                                <br><span
+                                    class="preview">事实上前几天跟着老师按部就班地做，学习了一些基础的知识，今天实际动手写一个一直都想拥有的东西————自己“设计”的博客时，第一次不是把前端当成作业、任务来写，
+                                    第一次用了早就想学但一直没学的&nbsp;JavaScript&nbsp;(也没用到什么高级东西，只是觉得弄个基本的js，至少说明我这几天听下来知道了js是什么)...</span>
+                            </p>
+
+                        </a>
+
+                        <hr>
+                        <a href="1_article.html" onmousemove="bigcontent(article02)"
+                            onmouseout="normalcontent(article02)">
+                            <p id="article02" class="titles">成功解决vscode使用code runner插件无法编译运行文件名带空格的文件
+                                <span id=" a1" class="date"><br>时间:2019年03月24日23:57:45&nbsp;作者:徐正佳</span>
+                                <br><span
+                                    class="preview">使用微软的编译器时发现完美解决，详见我的另外一篇文章：https://blog.csdn.net/qq_41246972/article/details/89140154
+
+                                    另外尝试继续使用mingw（现在觉得mingw没有微软的好）：试了半天，未果，还是用ms编译器吧
+                                    2019年4月9日23:03:35更新：现在试一试，找着了：...</span>
+                            </p>
+
+                        </a>
+
+                        <hr>
+                        <a href="2_article.html" onmousemove="bigcontent(article03)"
+                            onmouseout="normalcontent(article03)">
+                            <p id="article03" class="titles">多少年前看过《蜡笔小新》，多少年后爱看《蜡笔小新》。可喜可贺，可喜可乐！
+                                <span id=" a1" class="date"><br>时间:2017年12月20日19:28:25&nbsp;作者:徐正佳</span>
+                                <br><span class="preview">私以为，《蜡笔小新》的成功便是由于小新的形象令人印象深刻吧！记得儿时有一位表哥模仿小新“哦吼”“大象”等台词极像，
+                                    外婆夸其聪慧，虽我未曾亲耳闻识，但一向自我感觉良好的本人也偶尔会在外婆面前模仿小新并且觉得:“我这模仿才叫有样子哩！”
+                                    外婆却总笑道:“你表哥人家学得才好哩，像凶哩！”到头来，现在我也终于发现自己总爱自我感觉良好，
+                                    不过以上实可说明小新的形象可谓易深入人心，让许多大人偶尔和小朋友说起来都可以津津乐道一点小新的经典台词...</span>
+                            </p>
+
+                        </a>
+
+                        <hr><a href="3_article.html" onmousemove="bigcontent(article04)"
+                            onmouseout="normalcontent(article04)">
+                            <p id="article04" class="titles">那这个影评我来坐沙发吧！这个慵懒的电影让我想到了《菊次郎的夏天》。
+                                <span id=" a1" class="date"><br>时间:2017年02月02日00:14:08&nbsp;作者:徐正佳</span>
+                                <br><span class="preview">
+
+                                    （所以去欣赏这部电影吧！或许最后比起剧情，你会发现还有美丽的摄影，还有背景的蝉鸣，还有回味的感动，还有更多的东西能让你喜欢一部电影，以后某个慵懒的夏日午后，或许我们还能抱起这部电影，慢慢地睡着。去欣赏夏天吧）...</span>
+                            </p>
+
+                        </a>
+
+                        <hr><a href="4_article.html" onmousemove="bigcontent(article05)"
+                            onmouseout="normalcontent(article05)">
+                            <p id="article05" class="titles">AtCoder Beginner Contest 119 C - Synthetic Kadomatsu
+                                <span id=" a1" class="date"><br>时间:2019年03月25日23:10:29&nbsp;作者:徐正佳</span>
+                                <br><span class="preview">
+
+                                    最近感觉AtCoder挺喜爱的，就是题解几乎都是日文的，找不到英文的，有点难受，谷歌翻译又有点蛋疼，难道我应该学日语吗？
+                                    日本人的博客还可以，借助谷歌翻译和代码管中窥豹也能学到一些东西，这题一开始想是不是要贪心啥的，然后观日本网友的博客... </span>
+                            </p>
+
+                        </a>
+                        <br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
