@@ -2,4 +2,4 @@
 
 租了个一年的域名 xzjisme.me
 And now expired. Sill can be view at https://xzjisme.github.io/blog_test/Main/
-Plz view it, plz!
+Plz view it, plz! Give it a look.
